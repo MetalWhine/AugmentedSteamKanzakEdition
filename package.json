@@ -1,5 +1,5 @@
 {
-  "name": "augmented-steam",
+  "name": "augmented-steam-kanzak-edition",
   "scripts": {
     "build": "node scripts/build.mjs",
     "update-locales": "node scripts/locales.mjs download",

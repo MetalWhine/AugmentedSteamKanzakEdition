@@ -5,40 +5,41 @@ import type CApp from "@Content/Features/Store/App/CApp";
 import Settings from "@Options/Data/Settings";
 
 export default class FExtraLinksApp extends Feature<CApp> {
+  override checkPrerequisites(): boolean | Promise<boolean> {
+    return (
+      Settings.showitadlinks ||
+      Settings.showsteamdb ||
+      Settings.showbartervg ||
+      Settings.showsteamcardexchange ||
+      Settings.showprotondb ||
+      Settings.showcompletionistme ||
+      Settings.showpcgw ||
+      Settings.showgamalytic ||
+      (this.context.appName &&
+        (Settings.showtwitch ||
+          Settings.showyoutube ||
+          Settings.showyoutubegameplay ||
+          Settings.showyoutubereviews)) ||
+      Settings.app_custom_link.some((link) => link.enabled)
+    );
+  }
 
-    override checkPrerequisites(): boolean | Promise<boolean> {
-        return Settings.showitadlinks
-            || Settings.showsteamdb
-            || Settings.showbartervg
-            || Settings.showsteamcardexchange
-            || Settings.showprotondb
-            || Settings.showcompletionistme
-            || Settings.showpcgw
-            || this.context.appName && (
-                Settings.showtwitch
-                || Settings.showyoutube
-                || Settings.showyoutubegameplay
-                || Settings.showyoutubereviews
-            )
-            || Settings.app_custom_link.some(link => link.enabled)
+  // Even if the user disabled extra links, the position of the share/embed links is changed
+  override apply(): void {
+    const target = document.querySelector("div.rightcol.game_meta_data");
+    if (!target) {
+      throw new Error("Node not found");
     }
 
-    // Even if the user disabled extra links, the position of the share/embed links is changed
-    override apply(): void {
-        const target = document.querySelector("div.rightcol.game_meta_data");
-        if (!target) {
-            throw new Error("Node not found");
-        }
-
-        (new AppLinks({
-            target,
-            anchor: target.firstElementChild ?? undefined,
-            props: {
-                appid: this.context.appid,
-                communityAppid: this.context.communityAppid,
-                appName: StringUtils.clearSpecialSymbols(this.context.appName),
-                appPage: true
-            }
-        }));
-    }
+    new AppLinks({
+      target,
+      anchor: target.firstElementChild ?? undefined,
+      props: {
+        appid: this.context.appid,
+        communityAppid: this.context.communityAppid,
+        appName: StringUtils.clearSpecialSymbols(this.context.appName),
+        appPage: true,
+      },
+    });
+  }
 }

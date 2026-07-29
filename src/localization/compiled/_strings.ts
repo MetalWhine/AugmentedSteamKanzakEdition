@@ -108,9 +108,12 @@ export const __addFullgameToWishlist = "addFullgameToWishlist";
 export const __addToWaitlist = "addToWaitlist";
 export const __addFullgameToWaitlist = "addFullgameToWaitlist";
 export const __removeFromWaitlistTooltip = "removeFromWaitlistTooltip";
-export const __removeFullgameFromWaitlistTooltip = "removeFullgameFromWaitlistTooltip";
-export const __removeFromWishlistAndWaitlistTooltip = "removeFromWishlistAndWaitlistTooltip";
-export const __removeFullgameFromWishlistAndWaitlistTooltip = "removeFullgameFromWishlistAndWaitlistTooltip";
+export const __removeFullgameFromWaitlistTooltip =
+  "removeFullgameFromWaitlistTooltip";
+export const __removeFromWishlistAndWaitlistTooltip =
+  "removeFromWishlistAndWaitlistTooltip";
+export const __removeFullgameFromWishlistAndWaitlistTooltip =
+  "removeFullgameFromWishlistAndWaitlistTooltip";
 export const __language = "language";
 export const __theworddefault = "theworddefault";
 export const __thewordclear = "thewordclear";
@@ -154,16 +157,26 @@ export const __view = "view";
 export const __gameName = "gameName";
 export const __notinterested = "notinterested";
 export const __ignoredOwned = "ignoredOwned";
-export const __searchFilters_reviewsScore_between = "searchFilters_reviewsScore_between";
-export const __searchFilters_reviewsScore_any = "searchFilters_reviewsScore_any";
-export const __searchFilters_reviewsScore_upTo = "searchFilters_reviewsScore_upTo";
-export const __searchFilters_reviewsScore_from = "searchFilters_reviewsScore_from";
-export const __searchFilters_reviewsCount_count = "searchFilters_reviewsCount_count";
-export const __searchFilters_reviewsCount_minCount = "searchFilters_reviewsCount_minCount";
-export const __searchFilters_reviewsCount_maxCount = "searchFilters_reviewsCount_maxCount";
-export const __searchFilters_discountPercent_count = "searchFilters_discountPercent_count";
-export const __searchFilters_discountPercent_minCount = "searchFilters_discountPercent_minCount";
-export const __searchFilters_discountPercent_maxCount = "searchFilters_discountPercent_maxCount";
+export const __searchFilters_reviewsScore_between =
+  "searchFilters_reviewsScore_between";
+export const __searchFilters_reviewsScore_any =
+  "searchFilters_reviewsScore_any";
+export const __searchFilters_reviewsScore_upTo =
+  "searchFilters_reviewsScore_upTo";
+export const __searchFilters_reviewsScore_from =
+  "searchFilters_reviewsScore_from";
+export const __searchFilters_reviewsCount_count =
+  "searchFilters_reviewsCount_count";
+export const __searchFilters_reviewsCount_minCount =
+  "searchFilters_reviewsCount_minCount";
+export const __searchFilters_reviewsCount_maxCount =
+  "searchFilters_reviewsCount_maxCount";
+export const __searchFilters_discountPercent_count =
+  "searchFilters_discountPercent_count";
+export const __searchFilters_discountPercent_minCount =
+  "searchFilters_discountPercent_minCount";
+export const __searchFilters_discountPercent_maxCount =
+  "searchFilters_discountPercent_maxCount";
 export const __searchFilters_hideCart = "searchFilters_hideCart";
 export const __searchFilters_hideEa = "searchFilters_hideEa";
 export const __searchFilters_hideMixed = "searchFilters_hideMixed";
@@ -220,8 +233,10 @@ export const __groups_actionGroups = "groups_actionGroups";
 export const __groups_select = "groups_select";
 export const __groups_leave = "groups_leave";
 export const __groups_selected = "groups_selected";
-export const __groups_leaveAdminConfirm_currentlyAdmin = "groups_leaveAdminConfirm_currentlyAdmin";
-export const __groups_leaveAdminConfirm_wantToLeave = "groups_leaveAdminConfirm_wantToLeave";
+export const __groups_leaveAdminConfirm_currentlyAdmin =
+  "groups_leaveAdminConfirm_currentlyAdmin";
+export const __groups_leaveAdminConfirm_wantToLeave =
+  "groups_leaveAdminConfirm_wantToLeave";
 export const __export_wishlist = "export_wishlist";
 export const __export_type = "export_type";
 export const __export_format = "export_format";
@@ -298,8 +313,10 @@ export const __hltb_main = "hltb_main";
 export const __options_friendsAndGroups = "options_friendsAndGroups";
 export const __options_friendsAppendNickname = "options_friendsAppendNickname";
 export const __options_settingsMngmt_import = "options_settingsMngmt_import";
-export const __options_settingsMngmt_importSuccess = "options_settingsMngmt_importSuccess";
-export const __options_settingsMngmt_importFail = "options_settingsMngmt_importFail";
+export const __options_settingsMngmt_importSuccess =
+  "options_settingsMngmt_importSuccess";
+export const __options_settingsMngmt_importFail =
+  "options_settingsMngmt_importFail";
 export const __options_settingsMngmt_export = "options_settingsMngmt_export";
 export const __options_settingsMngmt_reset = "options_settingsMngmt_reset";
 export const __options_showCustomThemes = "options_showCustomThemes";
@@ -329,9 +346,12 @@ export const __options_profileLinks = "options_profileLinks";
 export const __options_tag = "options_tag";
 export const __options_icon = "options_icon";
 export const __options_name = "options_name";
-export const __options_showAlternativeLinuxIcon = "options_showAlternativeLinuxIcon";
-export const __options_replacecommunityhublinks = "options_replacecommunityhublinks";
-export const __options_hideannouncementcomments = "options_hideannouncementcomments";
+export const __options_showAlternativeLinuxIcon =
+  "options_showAlternativeLinuxIcon";
+export const __options_replacecommunityhublinks =
+  "options_replacecommunityhublinks";
+export const __options_hideannouncementcomments =
+  "options_hideannouncementcomments";
 export const __options_metacritic = "options_metacritic";
 export const __options_opencritic = "options_opencritic";
 export const __options_hideactivelistings = "options_hideactivelistings";
@@ -339,7 +359,8 @@ export const __options_showlowestmarketprice = "options_showlowestmarketprice";
 export const __options_clear = "options_clear";
 export const __options_showPackageInfo = "options_showPackageInfo";
 export const __options_wlbuttoncommunityapp = "options_wlbuttoncommunityapp";
-export const __options_removeguideslanguagefilter = "options_removeguideslanguagefilter";
+export const __options_removeguideslanguagefilter =
+  "options_removeguideslanguagefilter";
 export const __options_confirmdeletecomment = "options_confirmdeletecomment";
 export const __options_disablelinkfilter = "options_disablelinkfilter";
 export const __options_regionalPriceOn = "options_regionalPriceOn";
@@ -386,7 +407,8 @@ export const __options_lowestprice = "options_lowestprice";
 export const __options_owned = "options_owned";
 export const __options_itadlinks = "options_itadlinks";
 export const __options_steamdb = "options_steamdb";
-export const __options_profileLinkImagesColor = "options_profileLinkImagesColor";
+export const __options_profileLinkImagesColor =
+  "options_profileLinkImagesColor";
 export const __options_showViewInLibrary = "options_showViewInLibrary";
 export const __options_installSteamButton = "options_installSteamButton";
 export const __options_replaceViewClient = "options_replaceViewClient";
@@ -398,9 +420,11 @@ export const __options_userNotes_userNotes = "options_userNotes_userNotes";
 export const __options_userNotes_app = "options_userNotes_app";
 export const __options_userNotes_wishlist = "options_userNotes_wishlist";
 export const __options_userNotes_loc = "options_userNotes_loc";
-export const __options_userNotes_syncedStorage = "options_userNotes_syncedStorage";
+export const __options_userNotes_syncedStorage =
+  "options_userNotes_syncedStorage";
 export const __options_userNotes_local = "options_userNotes_local";
-export const __options_userNotes_saveWithEnter = "options_userNotes_saveWithEnter";
+export const __options_userNotes_saveWithEnter =
+  "options_userNotes_saveWithEnter";
 export const __options_inventoryNavText = "options_inventoryNavText";
 export const __options_marketTotal = "options_marketTotal";
 export const __options_lowestpriceCoupon = "options_lowestpriceCoupon";
@@ -415,17 +439,24 @@ export const __options_groupLinks = "options_groupLinks";
 export const __options_showLanguagewarning = "options_showLanguagewarning";
 export const __options_homepage = "options_homepage";
 export const __options_homepageDefaultTab = "options_homepageDefaultTab";
-export const __options_homepageDefaultTabRemember = "options_homepageDefaultTabRemember";
-export const __options_homepageDefaultTabNewreleases = "options_homepageDefaultTabNewreleases";
-export const __options_homepageDefaultTabTopsellers = "options_homepageDefaultTabTopsellers";
-export const __options_homepageDefaultTabUpcoming = "options_homepageDefaultTabUpcoming";
-export const __options_homepageDefaultTabSpecials = "options_homepageDefaultTabSpecials";
-export const __options_homepageDefaultTabFree = "options_homepageDefaultTabFree";
+export const __options_homepageDefaultTabRemember =
+  "options_homepageDefaultTabRemember";
+export const __options_homepageDefaultTabNewreleases =
+  "options_homepageDefaultTabNewreleases";
+export const __options_homepageDefaultTabTopsellers =
+  "options_homepageDefaultTabTopsellers";
+export const __options_homepageDefaultTabUpcoming =
+  "options_homepageDefaultTabUpcoming";
+export const __options_homepageDefaultTabSpecials =
+  "options_homepageDefaultTabSpecials";
+export const __options_homepageDefaultTabFree =
+  "options_homepageDefaultTabFree";
 export const __options_wishlist = "options_wishlist";
 export const __options_followed = "options_followed";
 export const __options_addAnotherRegion = "options_addAnotherRegion";
 export const __options_skipGotSteam = "options_skipGotSteam";
-export const __options_storeGeneralThirdparty = "options_storeGeneralThirdparty";
+export const __options_storeGeneralThirdparty =
+  "options_storeGeneralThirdparty";
 export const __options_purchaseDates = "options_purchaseDates";
 export const __options_showBadgeProgress = "options_showBadgeProgress";
 export const __options_showSteampeek = "options_showSteampeek";
@@ -433,8 +464,10 @@ export const __options_showVaporlensSummary = "options_showVaporlensSummary";
 export const __options_showWishlistLink = "options_showWishlistLink";
 export const __options_showWishlistCount = "options_showWishlistCount";
 export const __options_profileShowcaseTwitch = "options_profileShowcaseTwitch";
-export const __options_profileShowcaseOwnTwitch = "options_profileShowcaseOwnTwitch";
-export const __options_profileShowcaseTwitchProfileonly = "options_profileShowcaseTwitchProfileonly";
+export const __options_profileShowcaseOwnTwitch =
+  "options_profileShowcaseOwnTwitch";
+export const __options_profileShowcaseTwitchProfileonly =
+  "options_profileShowcaseTwitchProfileonly";
 export const __options_lang_english = "options_lang_english";
 export const __options_lang_brazilian = "options_lang_brazilian";
 export const __options_lang_bulgarian = "options_lang_bulgarian";
@@ -467,7 +500,8 @@ export const __options_lang_vietnamese = "options_lang_vietnamese";
 export const __options_addCustomLink = "options_addCustomLink";
 export const __options_autoDetect = "options_autoDetect";
 export const __options_addToWaitlist = "options_addToWaitlist";
-export const __options_collectionBannerNotOwned = "options_collectionBannerNotOwned";
+export const __options_collectionBannerNotOwned =
+  "options_collectionBannerNotOwned";
 export const __options_maintainers = "options_maintainers";
 export const __options_withHelpOf = "options_withHelpOf";
 export const __options_contributors = "options_contributors";
@@ -588,7 +622,8 @@ export const __workshop_unsubscribeLoading = "workshop_unsubscribeLoading";
 export const __workshop_finished = "workshop_finished";
 export const __workshop_failed = "workshop_failed";
 export const __workshop_collectionSortBy = "workshop_collectionSortBy";
-export const __workshop_collectionSortSubscription = "workshop_collectionSortSubscription";
+export const __workshop_collectionSortSubscription =
+  "workshop_collectionSortSubscription";
 export const __workshop_collectionSortRating = "workshop_collectionSortRating";
 export const __workshop_collectionSortTitle = "workshop_collectionSortTitle";
 export const __workshop_collectionSortAuthor = "workshop_collectionSortAuthor";

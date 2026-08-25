@@ -16,6 +16,7 @@
         __options_preventVideoPause,
         __options_protondb,
         __options_gamalytic,
+        __options_steamscout,
         __options_purchaseDates,
         __options_showBadgeProgress,
         __options_showbartervg,
@@ -84,6 +85,7 @@
         <Toggle bind:value={$settings.showsteamcardexchange}>{L(__options_storeSteamcards)}</Toggle>
         <Toggle bind:value={$settings.showprotondb}>{L(__options_protondb)}</Toggle>
         <Toggle bind:value={$settings.showgamalytic}>{L(__options_gamalytic)}</Toggle>
+        <Toggle bind:value={$settings.showsteamscout}>{L(__options_steamscout)}</Toggle>
         <Toggle bind:value={$settings.showcompletionistme}>{L(__options_completionistme)}</Toggle>
         <Toggle bind:value={$settings.showpcgw}>{L(__options_pcgw)}</Toggle>
         <Toggle bind:value={$settings.showtwitch}>{L(__options_twitch)}</Toggle>

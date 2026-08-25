@@ -67,6 +67,7 @@ export interface SettingsSchema {
     showtwitch: boolean,
     showpcgw: boolean,
     showgamalytic: boolean,
+    showsteamscout: boolean,
     showcompletionistme: boolean,
     showprotondb: boolean,
     showviewinlibrary: boolean,

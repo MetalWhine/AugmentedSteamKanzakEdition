@@ -5,6 +5,8 @@
     export let icon: string = "";
     export let iconUrl: string|null = null;
     export let isCommunity: boolean = false;
+
+    
 </script>
 
 
@@ -12,6 +14,7 @@
     class:es_community_btn={isCommunity}
     class:es_app_btn={!isCommunity}
     use:external {href}
+    on:click
 >
     <span>
         {#if iconUrl}
@@ -63,6 +66,9 @@
     }
     .gamalytic_btn i {
         background-image: url("extension://img/gamalytic_logo_tiny.png");
+    }
+    .steamscout_btn i {
+        background-image: url("extension://img/ico-steamscout.png");
     }
     .completionistme_btn i {
         background-image: url("extension://img/icon-completionistme.png");

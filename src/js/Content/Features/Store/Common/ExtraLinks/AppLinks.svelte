@@ -51,6 +51,12 @@
         </ExtraLink>
     {/if}
 
+    {#if Settings.showsteamscout}
+        <ExtraLink href="https://togeproductions.com/SteamScout/#auto-appid-{appid}" icon="steamscout_btn">
+            {L(__viewOnWebsite, {"website": "SteamScout"})}
+        </ExtraLink>
+    {/if}
+
     {#if appName}
         {#if Settings.showtwitch}
             <ExtraLink href="https://www.twitch.tv/directory/game/{encodeURIComponent(appName)}" icon="twitch_btn">

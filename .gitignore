@@ -1,6 +1,6 @@
 # Build artifacts
 /releases/
-/dist/dev.*/
+/dist/
 
 /node_modules/
 

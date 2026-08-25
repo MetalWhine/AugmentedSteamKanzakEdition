@@ -1,6 +1,7 @@
 import AppId from "@Core/GameId/AppId";
 
-// Check if the URL has our special hash
+console.log("SteamScout accessed, attempting to fill form");
+
 const hash = window.location.hash;
 
 if (hash.startsWith('#auto-appid-')) {
@@ -22,6 +23,7 @@ if (hash.startsWith('#auto-appid-')) {
             // Optional: Clean up the URL so it looks normal to the user
             // and won't re-trigger if they manually refresh the page.
             history.replaceState(null, "", window.location.pathname);
+            console.log("Found Input & Button, commencing");
         }
         else if(input){
             clearInterval(checkExist); // Stop polling
@@ -32,6 +34,10 @@ if (hash.startsWith('#auto-appid-')) {
             // Optional: Clean up the URL so it looks normal to the user
             // and won't re-trigger if they manually refresh the page.
             history.replaceState(null, "", window.location.pathname);
+            console.log("Found Input only, commencing");
+        }
+        else{
+            console.warn("Input & Button not found!");
         }
     }, 100);
 

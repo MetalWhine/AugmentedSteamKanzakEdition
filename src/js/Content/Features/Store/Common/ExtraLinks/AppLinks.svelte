@@ -52,7 +52,11 @@
     {/if}
 
     {#if Settings.showsteamscout}
-        <ExtraLink href="https://togeproductions.com/SteamScout/#auto-appid-{appid}" icon="steamscout_btn">
+        <ExtraLink 
+            href="https://togeproductions.com/SteamScout/#auto-appid-{appid}"
+            icon="steamscout_btn"
+            on:click={() => navigator.clipboard.writeText(String(appid))}
+        >
             {L(__viewOnWebsite, {"website": "SteamScout"})}
         </ExtraLink>
     {/if}

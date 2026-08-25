@@ -1,5 +1,3 @@
-import AppId from "@Core/GameId/AppId";
-
 console.log("SteamScout accessed, attempting to fill form");
 
 const hash = window.location.hash;

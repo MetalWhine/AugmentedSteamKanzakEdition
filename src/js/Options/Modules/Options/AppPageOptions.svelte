@@ -15,6 +15,7 @@
         __options_pcgw,
         __options_preventVideoPause,
         __options_protondb,
+        __options_steamscout,
         __options_purchaseDates,
         __options_showBadgeProgress,
         __options_showPackageInfo,
@@ -82,6 +83,7 @@
         <Toggle bind:value={$settings.showprotondb}>{L(__options_protondb)}</Toggle>
         <Toggle bind:value={$settings.showcompletionistme}>{L(__options_completionistme)}</Toggle>
         <Toggle bind:value={$settings.showpcgw}>{L(__options_pcgw)}</Toggle>
+        <Toggle bind:value={$settings.showsteamscout}>{L(__options_steamscout)}</Toggle>
         <Toggle bind:value={$settings.showtwitch}>{L(__options_twitch)}</Toggle>
         <Toggle bind:value={$settings.showyoutube}>{L(__options_youtube)}</Toggle>
         <Toggle bind:value={$settings.showyoutubegameplay}>{L(__options_showYoutubegameplay)}</Toggle>

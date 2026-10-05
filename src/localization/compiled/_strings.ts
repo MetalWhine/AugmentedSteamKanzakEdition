@@ -366,6 +366,7 @@ export const __options_twitch = "options_twitch";
 export const __options_pcgw = "options_pcgw";
 export const __options_completionistme = "options_completionistme";
 export const __options_protondb = "options_protondb";
+export const __options_steamscout = "options_steamscout";
 export const __options_storeSteamcards = "options_storeSteamcards";
 export const __options_spamcommentregex = "options_spamcommentregex";
 export const __options_regionalHideworld = "options_regionalHideworld";

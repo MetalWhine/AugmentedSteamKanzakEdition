@@ -354,6 +354,7 @@
         "context_itad": "Search IsThereAnyDeal for '__query__'",
         "context_steamdb": "Search SteamDB for '__query__'",
         "context_steamdb_instant": "Instant Search SteamDB for '__query__'",
+        "steamscout": "Show SteamScout links",
         "context_protondb": "Search ProtonDB for '__query__'",
         "context_steam_keys": "Activate steam product keys within selection",
         "wsgf": "Show WSGF (Widescreen) information",

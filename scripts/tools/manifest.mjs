@@ -21,7 +21,8 @@ export default {
     host_permissions: [
         "*://*.steampowered.com/*",
         "*://steamcommunity.com/*",
-        "*://*.isthereanydeal.com/"
+        "*://*.isthereanydeal.com/",
+        "*://togeproductions.com/SteamScout/"
     ],
     optional_permissions: [],
     web_accessible_resources: [
@@ -55,6 +56,14 @@ export default {
             ],
             run_at: "document_start",
             world: "MAIN"
+        },
+        {
+            matches: [
+                "*://togeproductions.com/SteamScout/", 
+            ],
+            js: [
+                "scriptlets/steamscout_automator.js"
+            ]
         }
     ]
 };

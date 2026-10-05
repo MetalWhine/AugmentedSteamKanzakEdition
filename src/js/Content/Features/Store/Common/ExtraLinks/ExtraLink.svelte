@@ -12,6 +12,7 @@
     class:es_community_btn={isCommunity}
     class:es_app_btn={!isCommunity}
     use:external {href}
+    on:click
 >
     <span>
         {#if iconUrl}
@@ -57,6 +58,9 @@
     }
     .pcgw_btn i {
         background-image: url("extension://img/pcgw.png");
+    }
+    .steamscout_btn i {
+        background-image: url("extension://img/ico-steamscout.png");
     }
     .completionistme_btn i {
         background-image: url("extension://img/icon-completionistme.png");

@@ -13,6 +13,7 @@ export default class FExtraLinksApp extends Feature<CApp> {
             || Settings.showprotondb
             || Settings.showcompletionistme
             || Settings.showpcgw
+            || Settings.showsteamscout
             || this.context.appName && (
                 Settings.showtwitch
                 || Settings.showyoutube

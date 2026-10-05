@@ -45,6 +45,22 @@
         </ExtraLink>
     {/if}
 
+    {#if Settings.showgamalytic}
+        <ExtraLink href="https://gamalytic.com/game/{appid}" icon="gamalytic_btn">
+            {L(__viewOnWebsite, {"website": "Gamalytic"})}
+        </ExtraLink>
+    {/if}
+
+    {#if Settings.showsteamscout}
+        <ExtraLink 
+            href="https://togeproductions.com/SteamScout/#auto-appid-{appid}"
+            icon="steamscout_btn"
+            on:click={() => navigator.clipboard.writeText(String(appid))}
+        >
+            {L(__viewOnWebsite, {"website": "SteamScout"})}
+        </ExtraLink>
+    {/if}
+
     {#if appName}
         {#if Settings.showtwitch}
             <ExtraLink href="https://www.twitch.tv/directory/game/{encodeURIComponent(appName)}" icon="twitch_btn">

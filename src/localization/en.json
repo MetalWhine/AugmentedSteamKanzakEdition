@@ -403,6 +403,8 @@
         "twitch": "Show Twitch links",
         "pcgw": "Show PCGamingWiki links",
         "completionistme": "Show Completionist.me links",
+        "gamalytic": "Show Gamalytic links",
+        "steamscout": "Show SteamScout links",
         "protondb": "Show ProtonDB links",
         "store_steamcards": "Show SteamCardExchange links",
         "spamcommentregex": "Regular Expression string:",
